@@ -1,0 +1,24 @@
+{
+  "name": "node_crud_app",
+  "version": "1.0.0",
+  "description": "Basic crud application using nodejs and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "NODEJS",
+    "EXPRESS",
+    "CRUD"
+  ],
+  "author": "Kwis Lawrence Francis",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
